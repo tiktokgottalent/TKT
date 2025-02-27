@@ -164,7 +164,7 @@ async def generate_registration_code(update: Update, context):
 
 # Main function
 def main():
-    application = Application.builder().token("7682496291:AAG-HvMBugcIV-bcfYNVgJKMnpSAQ20dvhE").build()
+    application = Application.builder().token("8026943278:AAGTIrfLkl4atDWIWKlVsrMgy2V3K-hedxc").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
